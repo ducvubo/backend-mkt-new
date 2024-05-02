@@ -7,11 +7,11 @@ let tatCaCuocTroChuyen = () => {
       all = await db.Chat.findAll({
         attributes: {
           exclude: ["thoigian", "createdAt", "updatedAt"],
-        },
+             },     
       });
-      resolve(all);
+      resolve(all); 
     } catch (e) {
-      reject(e);
+      reject(e);    
     }
   });
 };

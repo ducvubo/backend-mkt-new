@@ -561,7 +561,7 @@ let thongKeBanHoa = (data) => {
             model: db.hoa,
             as: "hoas",
             through: {
-              attributes: ["idhoa", "soluongmua", "tongtien", "madonhang123"],
+              attributes: ["idhoa", "soluongmua", "tongtien"],
             },
             attributes: {
               exclude: [
